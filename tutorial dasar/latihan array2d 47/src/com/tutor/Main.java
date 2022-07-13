@@ -1,5 +1,7 @@
 package com.tutor;
 
+//test
+
 
 /**
  * Main
@@ -19,7 +21,9 @@ public class Main {
             {17,18,19},
         };
         System.out.println("Penjumlahan Matrix A dan Matrix B");
-        printMatrix(matrixA); System.out.println("    +\n"); printMatrix(matrixB);
+        printMatrix(matrixA); 
+        System.out.println("    +\n"); 
+        printMatrix(matrixB);
 
         int hasilTambah[][] = tambahArray(matrixA, matrixB);
         printMatrix(hasilTambah);
